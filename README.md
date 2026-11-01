@@ -9,7 +9,7 @@ viva panel would, checks what you claim by running your own tests, and writes an
 report with a study plan.
 
 [![CI](https://github.com/goyalnishtha841/vivapanel/actions/workflows/ci.yml/badge.svg)](https://github.com/goyalnishtha841/vivapanel/actions/workflows/ci.yml)
-![Tests](https://img.shields.io/badge/tests-131%20passing-2EA043)
+![Tests](https://img.shields.io/badge/tests-136%20passing-2EA043)
 ![Edge cases](https://img.shields.io/badge/edge--case%20eval-7%2F7%20live-2EA043)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688?logo=fastapi&logoColor=white)
@@ -24,13 +24,43 @@ report with a study plan.
 
 <br />
 
-<a href="https://drive.google.com/file/d/1Lv7N7xPtM28SpyjZEgwQ__8K_oQGboSQ/view?usp=sharing"><img src="demo-video/out/thumbnail.jpg" width="900" alt="Demo video: a live viva on a real repo. Click to play (2:10)" /></a>
+<img src="docs/screenshots/hero.jpg" width="900" alt="The Viva Panel landing page: 'Can you defend your own code?', a box for a GitHub link, and the Professor, Industry Engineer and Curious Junior beside it" />
+
+<sub><b>The landing page.</b> Paste a public GitHub link and the panel reads your project, or try it on the sample project.</sub>
+
+<br /><br />
+
+<a href="https://drive.google.com/file/d/1Lv7N7xPtM28SpyjZEgwQ__8K_oQGboSQ/view?usp=sharing"><img src="demo-video/out/thumbnail.jpg" width="600" alt="Demo video: a live viva on a real repo. Click to play (2:10)" /></a>
 
 <sub><b>Demo video (2:10).</b> A real capture of the deployed app, not a mockup: a full viva on a second real repo
 (<a href="https://github.com/goyalnishtha841/tradepilot">tradepilot</a>), including the Engineer catching a false claim
 with a live code search, and the report it produced. Click the image to play.</sub>
 
-<sub>Built for the <b>Ziro Agentic AI Hackathon 2026</b> by team <b>Triple Threat AI</b>.</sub>
+<br />
+
+### Team Triple Threat AI
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <b>Nishtha Goyal</b><br />
+      <sub>Team lead · <a href="https://github.com/goyalnishtha841">@goyalnishtha841</a></sub><br /><br />
+      <sub>AI and agents (reader, moderator, examiners, scorer, guardrails, LLM routing, evals), plus the backend, UI, re-viva, team and hiring modes</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>Asmita Roy</b><br />
+      <sub><a href="https://github.com/techAsmita">@techAsmita</a></sub><br /><br />
+      <sub>UI redesign and polish, voice answers, mobile layout, interview pacing (warm-up, fundamentals first, Skip), reports, Postgres and Daytona sandbox, testing on real repos, demo video and slides</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>Akshita</b><br />
+      <sub>&nbsp;</sub><br /><br />
+      <sub>Hosted test sandbox, deployment</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Built for the <b>Ziro Agentic AI Hackathon 2026</b>.</sub>
 
 </div>
 
@@ -51,7 +81,7 @@ with a live code search, and the report it produced. Click the image to play.</s
 [Features](#features) · [What makes it different](#what-makes-it-different) · [How it works](#how-it-works) ·
 [Results](#measured-results) · [Tech stack](#tech-stack-and-why) · [Safety and fairness](#safety-fairness-and-privacy) ·
 [Run it locally](#run-it-locally) · [Testing](#testing) · [Repository layout](#repository-layout) ·
-[Limitations and roadmap](#limitations-and-roadmap) · [Team](#team)
+[Limitations and roadmap](#limitations-and-roadmap) · [Team](#team-triple-threat-ai)
 
 ---
 
@@ -511,14 +541,8 @@ marks · sandboxes for JavaScript (Jest) and Java (JUnit) · browser end-to-end 
 
 ---
 
-## Team
+## License
 
-Built for the **Ziro Agentic AI Hackathon 2026** by **Triple Threat AI**.
-
-| Member | Area |
-|---|---|
-| **Nishtha Goyal** (team lead) | AI and agents (reader, moderator, examiners, scorer, guardrails, LLM routing, evals), plus the backend, UI, re-viva, team and hiring modes |
-| **Asmita Roy** ([@techAsmita](https://github.com/techAsmita)) | UI redesign and polish, voice answers, mobile layout, interview pacing (warm-up, fundamentals first, Skip), reports, Postgres and Daytona sandbox, testing on real repos, demo video and slides |
-| **Akshita** | Hosted test sandbox, deployment |
+Built for the **Ziro Agentic AI Hackathon 2026** by **Triple Threat AI** ([meet the team](#team-triple-threat-ai)).
 
 **License:** [MIT](LICENSE) © 2026 Team Triple Threat AI (Nishtha Goyal, Asmita Roy, Akshita).
